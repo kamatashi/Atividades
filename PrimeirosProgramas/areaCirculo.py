@@ -1,10 +1,9 @@
 pi = 3.14159
-raio = float(input()) / 100 * 3
+raio = float(input()) / 100
 
-area = pi * raio ** 3
+area = (pi * raio**2)
 
-print('Area = %f ' %area)
-
+print('Area = %f ' % area)
 
 # Input: 2
-# Esperado: 0.0013
+# Esperado: Area = 0.0013
