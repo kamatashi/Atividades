@@ -1,5 +1,5 @@
-entrada = int(input())
+entrada = float(input())
 
 doGarcom = entrada + (entrada * 0.1)
 
-print(doGarcom)
+print('%.2f' % doGarcom)
