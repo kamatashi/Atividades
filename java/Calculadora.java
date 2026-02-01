@@ -9,6 +9,9 @@ public class Calculadora{
     return a * b;
   }
   public static int divisao (int a, int b){
-    return a /b
+    if (b == 0){
+      throw new IllegalArgumentExcpetion("Divisão por zero não é permitida");
+    }
+    return a / b;
   }
 }
